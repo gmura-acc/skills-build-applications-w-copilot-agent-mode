@@ -1,0 +1,266 @@
+/* --- GitHub-Inspired Theme --- */
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+nav {
+  background-color: #24292e;
+  padding: 0.75rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+}
+nav a:hover {
+  background-color: #0366d6;
+  color: #ffffff;
+}
+
+.octofit-title {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #24292e;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.octofit-subtitle {
+  font-size: 1.25rem;
+  color: #586069;
+  margin-bottom: 1.5rem;
+}
+
+.octofit-btn {
+  background-color: #0366d6;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border: 1px solid #0366d6;
+}
+.octofit-btn:hover {
+  background-color: #0255b3;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  color: #ffffff;
+}
+
+.octofit-info {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  padding: 2rem;
+  margin-top: 2rem;
+  border: 1px solid #e1e4e8;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.octofit-info h2 {
+  color: #24292e;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.octofit-info li {
+  font-size: 1rem;
+  color: #586069;
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.App-link {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #0255b3;
+  text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow: hidden;
+}
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e1e4e8;
+}
+th {
+  background-color: #f6f8fa;
+  color: #24292e;
+  font-weight: 600;
+  border-bottom: 2px solid #e1e4e8;
+}
+tr:nth-child(even) {
+  background-color: #f6f8fa;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+tr:hover {
+  background-color: #f1f8ff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #24292e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+}
+
+/* Logo */
+.octofit-logo {
+  height: 32px;
+  margin-right: 0.75rem;
+  vertical-align: middle;
+  filter: brightness(0) invert(1); /* Make it white for dark nav */
+}
+/* OctoFit Home Styles */
+.octofit-home {
+  max-width: 1012px;
+  margin: 3rem auto;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 3rem 2rem;
+  border: 1px solid #e1e4e8;
+}
+
+.octofit-hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.octofit-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #2b2d42;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.octofit-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.octofit-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.octofit-btn {
+  background: #00b894;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0,184,148,0.10);
+}
+.octofit-btn:hover {
+  background: #09876a;
+  transform: translateY(-2px) scale(1.04);
+}
+
+.octofit-info {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  margin-top: 1.5rem;
+}
+.octofit-info h2 {
+  color: #2b2d42;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.octofit-info ul {
+  list-style: none;
+  padding: 0;
+}
+.octofit-info li {
+  font-size: 1.08rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
